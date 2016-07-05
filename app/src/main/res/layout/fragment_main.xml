@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<GridLayout
+
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    tools:context=".GridXMLActivity" >
+
+
+    <ImageView
+        android:id="@+id/brewing1"
+        android:src="@drawable/brewing1"
+        android:onClick="clickBrewing1"
+       />
+
+    <ImageView
+        android:id="@+id/brewing2"
+        android:src="@drawable/brewing2"
+        android:onClick="clickBrewing2"
+        android:layout_columnSpan="1"
+        />
+    <ImageView
+        android:id="@+id/brewing3"
+        android:src="@drawable/brewing3"
+        android:onClick="clickBrewing3"
+        android:layout_columnSpan="1"
+        />
+
+    <ImageView
+        android:id="@+id/brewing4"
+        android:src="@drawable/brewing4"
+        android:onClick="clickBrewing4"
+        android:layout_columnSpan="1"
+        />
+    <ImageView
+        android:id="@+id/brewing5"
+        android:src="@drawable/brewing5"
+        android:onClick="clickBrewing5"
+        android:layout_columnSpan="1"
+        />
+    </GridLayout>
+    </ScrollView>
+
+

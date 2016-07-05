@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Make a Coffee</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_brewing1">Make a Coffee</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="list_header_equipment">Equipments</string>
+    <string name="list_header_stepbystep">Step by Step Guide</string>
+
+    <string name="brewingType">brewingType</string>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <string name="brewing1">Pour Over</string>
+    <string-array name="brewing1_Equipment">
+        <item>Dripper and Filter</item>
+        <item>Drip Pot</item>
+        <item>Thermometer</item>
+    </string-array>
+
+    <string-array name="brewing1_stepbystep">
+        <item>1. Grind the bean </item>
+        <item>2. Add Coffee (coffee and water ratio 1g / 15ml)</item>
+        <item>3. Pour boiling water over the filter to clean the filter paper </item>
+        <item>4. Boil water and cool to 90°C </item>
+        <item>5. Put the grounds to filter </item>
+        <item>6. Pour a little boiling water over the grounds, just enough to soak them. </item>
+        <item>7. Wait 30 seconds</item>
+        <item>8. Pour the water into the dripper in a spiral pattern, beginning at the center.</item>
+        <item> FINISH</item>
+    </string-array>
+
+    <string name="brewing2">French Press</string>
+    <string-array name="brewing2_Equipment">
+        <item>French Press</item>
+    </string-array>
+
+    <string-array name="brewing2_stepbystep">
+        <item>1. Grind the bean </item>
+        <item>2. Add Coffee (coffee and water ratio 1g / 15ml)</item>
+        <item>3. Pour boiled water </item>
+        <item>4. Stir it</item>
+        <item>5. Add the filter assembly and wait for 4 minutes</item>
+        <item>6. Plunge down the filter in even manner</item>
+        <item> FINISH</item>
+    </string-array>
+
+    <string name="brewing3">Expresso</string>
+    <string-array name="brewing3_Equipment">
+        <item>Expresso Machine</item>
+        <item>Coffee Temper</item>
+    </string-array>
+
+    <string-array name="brewing3_stepbystep">
+        <item>1. Fill espresso machine with water</item>
+        <item>2. Grind the bean (~18g)</item>
+        <item>3. Put the grind into portafilter.</item>
+        <item>4. Press the grind evenly with temper</item>
+        <item>5. Return the portafilter to the machine and begin brewing.</item>
+
+    </string-array>
+
+    <string name="brewing4">Syphon</string>
+    <string-array name="brewing4_Equipment">
+        <item>Siphon Filter</item>
+        <item>Siphon Bowl</item>
+        <item>Syphon Holder</item>
+        <item>Burner</item>
+        <item>Thermometer</item>
+    </string-array>
+
+
+    <string-array name="brewing4_stepbystep">
+        <item>1. Grind the bean </item>
+        <item>2. Install the filter</item>
+        <item>3. Add hot water into the lower bowl</item>
+        <item>4. Add grind into the upper bowl</item>
+        <item>5. Insert upper portion into lower bowl</item>
+        <item>6. Add burner to starter heat</item>
+        <item>7. When water was moved up, stir 2-3 rounds </item>
+        <item>8. Wait 1 minute</item>
+        <item>9. Remove the burner</item>
+        <item>Finish</item>
+    </string-array>
+
+    <string name="brewing5">Ice Drip</string>
+    <string-array name="brewing5_Equipment">
+        <item>Ice Tower Brewer</item>
+        <item>Filterr</item>
+    </string-array>
+
+    <string-array name="brewing5_stepbystep">
+        <item>1. Grind the bean </item>
+        <item>2. Add Coffee (coffee and water ratio 1g / 10ml)</item>
+        <item>3. Adding filters for water distribution evenly </item>
+        <item> 4. Add Ice and little water</item>
+        <item> 5. Adjusting the Dripper to one drip per second</item>
+        <item> 6. Wait for 3-4 hours</item>
+        <item> FINISH</item>
+    </string-array>
+</resources>
